@@ -18,16 +18,21 @@
     <main>
         <br>
         <form action="/submit-form" method="post">
-            <label for="name">Field for Name</label>
-            <input type="text" id="name" name="name" required placeholder="Name"><br><br>
-            <label for="email">Field for Email:</label>
-            <input id="email" type="email" required placeholder="Email"><br><br>
+            <label for="fullname">Full Name</label>
+            <input type="text" id="fullname" name="fullname" required placeholder="Name"><br><br>
+            
+            <label for="email">Email:</label>
+            <input id="email" name="email" type="email" required placeholder="Email"><br><br>
+            
             <label for="password">Password:</label>
-            <input id="password" type="password" placeholder="Password" required><br><br>
+            <input id="password" name="name="terms-and-conditions"" type="password" placeholder="Password" required><br><br>
+           
             <label for="passwordconfirm">Password Confirmation:</label>
-            <input id="passwordconfirm" type="password" placeholder="Confirm Password" required><br><br>
+            <input id="passwordconfirm" name="terms-and-conditions" type="password" placeholder="Confirm Password" required><br><br>
+            
             <input id="terms" type="checkbox" required>
             <label for="terms">Agree to the terms and conditions.</label>
+            
             <button type="submit" value="Register Now">Register Now</button>
         </form>
     </main>
