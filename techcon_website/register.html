@@ -17,15 +17,15 @@
     </header>
     <main>
         <form>
-            <label for="attendees">attendee’s full name :</label>
-            <input id="attendees" type="text" required placeholder="Full Name">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required placeholder="Name">
             <label for="email">Email:</label>
             <input id="email" type="email" required placeholder="Email">
             <label for="password">Password:</label>
-            <input id="password" type="password" placeholder="Password">
+            <input id="password" type="password" placeholder="Password" required>
             <label for="passwordconfirm">Password Confirmation:</label>
-            <input id="passwordconfirm" type="password" placeholder="Confirm Password">
-            <input id="checkbox" type="checkbox">
+            <input id="passwordconfirm" type="password" placeholder="Confirm Password" required>
+            <input id="checkbox" type="checkbox" required>
             <label for="checkbox">Agree to the terms and conditions.</label>
             <button id="submit" type="submit" value="Register Now">Register Now</button>
         </form>
